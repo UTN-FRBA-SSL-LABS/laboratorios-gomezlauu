@@ -16,7 +16,10 @@
  * Post: devuelve el valor entero correspondiente a la cadena */
 int ToInteger(const char *s);
 
-/* TODO: agregar una operacion a definir libremente.
- * Documentar Pre, Post y firma antes del prototipo. */
+/* ToDigit: Char -> Integer
+ * Pre:  ninguna
+ * Post: si c es un digito decimal ('0'..'9') devuelve su valor (0..9);
+ *       en cualquier otro caso devuelve -1 */
+int ToDigit(char c);
 
 #endif
